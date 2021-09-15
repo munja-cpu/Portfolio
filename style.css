@@ -38,11 +38,8 @@ p{
     border-top: 1px solid #fff;
 }
 
-.projects{
-    text-align: center;
-    background-color: black;
-}
-
-.projects h2{
-    color: #fff;
+.boxes{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    color: #f1f1f1;
 }
