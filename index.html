@@ -1,68 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moj Portfolio</title>
 
     <!-- BOOTSTRAP-->
-    <link rel="stylesheet" href="./dist/bootstrap.min.css">
-   
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./dist/bootstrap.min.css" />
 
-    
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
 
-</head>
-<body>
+  <body>
     <div class="container">
-    <section class="row hero justify-content-center align-items-center flex-wrap">
+      <!-- Lead Start -->
+      <section
+        class="row hero justify-content-center align-items-center flex-wrap"
+      >
         <div class="col-10 prof-box scale-in-ver-center">
-            <img src="images/2.jpg" class="prof-pic">
-            <h2 class="pt-4">Hello, Im</h2>
-            <h1  class="py-3">Jovan Munjas</h1>
-            <div class="line-break mb-2"></div>
-            <p class="fancy"> | Front-End Developer |</p>
-            <div class="logos  align-items-center p-4">
-                <img class="customLogo" src="./images/html.png" alt="htmlLogo">
-                <img class="customLogo" src="./images/css.png" alt="cssLogo">
-                <img class="customLogo" src="./images/javascript.png" alt="jsLogo">
-                <img class="customLogo" src="./images/bootstrap.png" alt="bootstrapLogo">
-                <img class="customLogo" src="./images/git.png" alt="gitLogo">
-            </div>
+          <img src="images/2.jpg" class="prof-pic" />
+          <h2 class="pt-4">Hello, Im</h2>
+          <h1 class="py-3">Jovan Munjas</h1>
+          <div class="line-break mb-2"></div>
+          <p class="fancy">| Front-End Developer |</p>
+          <div class="logos align-items-center p-4">
+            <img class="customLogo" src="./images/html.png" alt="htmlLogo" />
+            <img class="customLogo" src="./images/css.png" alt="cssLogo" />
+            <img
+              class="customLogo"
+              src="./images/javascript.png"
+              alt="jsLogo"
+            />
+            <img
+              class="customLogo"
+              src="./images/bootstrap.png"
+              alt="bootstrapLogo"
+            />
+            <img class="customLogo" src="./images/git.png" alt="gitLogo" />
+          </div>
         </div>
-        <div class="row justify-content-between align-items-center flex-wrap">
-            <!-- Contact START -->
-            <div class="boxes col-12 col-md-5 contact justify-content-center align-items-center mt-5 text-center">
-                <h2>Contact:</h2>
-                <form class="contact-form mt-5" action="contactform.php" method="post">
-                    <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Full name">
-                      </div>
-                    <div class="form-group mt-3">
-                      <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                     <div class="form-group mt-3">
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-                      </div>
-                    <button type="submit" name="submit" class="btn btn-primary mt-3">Send Mail</button>
-
-                  </form>
-            </div><!-- Contact END -->
-            <!-- Projekti -->
-            <div class="boxes col-12 col-md-5 projects justify-content-center align-items-center mt-5 text-center">
-                <h2>Projects: </h2>
-            </div><!-- Projekti END -->
-        </div>
-        <!-- Contact -->
+      </section>
+      <!-- Projekti -->
+      <section class="row justify-content-center align-items-center flex-wrap mt-5">
         
-    </section>
-</div>
+        <div
+          class="
+            projects
+            col-10
+            justify-content-center
+            align-items-center
+            mt-5
+          "
+        >
+        <h2 class="text-center">Projects:</h2>
+        </div>
+      </section>
+      <!-- Projekti END -->
+      <!-- Contact START -->
+      <section class="row justify-content-center align-items-center flex-wrap">
+        <div
+          class="
+            boxes
+            col-10
+            contact
+            justify-content-center
+            align-items-center
+            mt-5
+          "
+        >
+          <h2 class="text-center">Contact:</h2>
+          <form
+            class="contact-form mt-5"
+            action="https://formspree.io/f/xleavbkg"
+            method="post"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Full name"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                name="email"
+                class="form-control"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea
+                name="message"
+                class="form-control"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" name="submit" class="btn btn-primary mt-3 text-center">
+              Send Mail
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Contact END -->
+    </div>
 
-
-
-
-
-<script src="./main.js"></script>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>

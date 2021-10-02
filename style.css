@@ -1,5 +1,7 @@
 body{
     background: url(images/lead3.jpg)no-repeat center center fixed;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300 !important;
 }
 
 .hero{
@@ -11,6 +13,7 @@ body{
     padding: 40px;
     color: #f1f1f1;
     text-align: center;
+    border-radius: 20px;
 }
 
 .prof-pic{
@@ -42,6 +45,7 @@ p{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 40px;
     color: #f1f1f1;
+    border-radius: 5px;
 }
 
 .scale-in-ver-center {
@@ -63,6 +67,40 @@ span{
 span.fancyColors{
   color: #5e99d5;
 }
+
+.btn-primary{
+  background-color: #01204e;
+  border-color: #01204e;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/**
+ * ----------------------------------------
+ * Projects Section Start
+ * ----------------------------------------
+ */
+
+.projects{
+    background: linear-gradient(to bottom, rgba(2, 7, 27, 1),rgba(2, 7, 27, 0.7)), url(./images/projectsBg.jpg) no-repeat center center fixed;
+    padding: 40px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
 
 /**
  * ----------------------------------------
