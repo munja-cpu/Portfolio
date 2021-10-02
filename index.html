@@ -35,6 +35,19 @@
             <!-- Contact START -->
             <div class="boxes col-12 col-md-5 contact justify-content-center align-items-center mt-5 text-center">
                 <h2>Contact:</h2>
+                <form class="contact-form mt-5" action="contactform.php" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Full name">
+                      </div>
+                    <div class="form-group mt-3">
+                      <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                     <div class="form-group mt-3">
+                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                      </div>
+                    <button type="submit" name="submit" class="btn btn-primary mt-3">Send Mail</button>
+
+                  </form>
             </div><!-- Contact END -->
             <!-- Projekti -->
             <div class="boxes col-12 col-md-5 projects justify-content-center align-items-center mt-5 text-center">
