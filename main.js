@@ -1,5 +1,4 @@
 
-
 const ime = document.querySelector(".fancy");
 const strIme = ime.textContent;
 
