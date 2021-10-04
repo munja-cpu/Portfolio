@@ -1,115 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Moj Portfolio</title>
 
-    <!-- BOOTSTRAP-->
-    <link rel="stylesheet" href="./dist/bootstrap.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moj Portfolio</title>
 
-    <link rel="stylesheet" href="fonts.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-  </head>
+  <!-- Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-32x32.png">
 
-  <body>
-    <div class="container">
-      <!-- Lead Start -->
-      <section
-        class="row hero justify-content-center align-items-center flex-wrap"
-      >
-        <div class="col-10 prof-box scale-in-ver-center">
-          <img src="images/me.jpg" class="prof-pic" />
-          <h2 class="pt-4">Hello, Im</h2>
-          <h1 class="py-3">Jovan Munjas</h1>
-          <div class="line-break mb-2"></div>
-          <p class="fancy">| Front-End Developer |</p>
-          <div class="logos align-items-center p-4">
-            <img class="customLogo" src="./images/html.png" alt="htmlLogo" />
-            <img class="customLogo" src="./images/css.png" alt="cssLogo" />
-            <img
-              class="customLogo"
-              src="./images/javascript.png"
-              alt="jsLogo"
-            />
-            <img
-              class="customLogo"
-              src="./images/bootstrap.png"
-              alt="bootstrapLogo"
-            />
-            <img class="customLogo" src="./images/git.png" alt="gitLogo" />
-          </div>
+  <!-- BOOTSTRAP-->
+  <link rel="stylesheet" href="./dist/bootstrap.min.css" />
+
+  <!-- AoS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- My CSS-->
+  <link rel="stylesheet" href="fonts.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Lead Start -->
+    <section class="row hero justify-content-center align-items-center flex-wrap">
+      <div class="col-10 prof-box scale-in-ver-center">
+        <img src="images/me.jpg" class="prof-pic" />
+        <h2 class="pt-4">Hello, I am</h2>
+        <h1 class="py-3">Jovan Munjas</h1>
+        <div class="line-break mb-2"></div>
+        <p class="fancy">| Front-End Developer |</p>
+        <div class="logos align-items-center p-4">
+          <img class="customLogo" src="./images/html.png" alt="htmlLogo" />
+          <img class="customLogo" src="./images/css.png" alt="cssLogo" />
+          <img class="customLogo" src="./images/javascript.png" alt="jsLogo" />
+          <img class="customLogo" src="./images/bootstrap.png" alt="bootstrapLogo" />
+          <img class="customLogo" src="./images/git.png" alt="gitLogo" />
         </div>
-      </section>
-      <!-- Projekti -->
-      <section class="row justify-content-center align-items-center flex-wrap mt-5">
-        
-        <div
-          class="
+      </div>
+    </section>
+    <!-- Projekti -->
+    <section data-aos="flip-right" class="row justify-content-center align-items-center flex-wrap mt-5">
+
+      <div class="
             projects
             col-10
             justify-content-center
             align-items-center
             mt-5
-          "
-        >
+          ">
         <h2 class="text-center">Projects:</h2>
-        </div>
-      </section>
-      <!-- Projekti END -->
-      <!-- Contact START -->
-      <section id="contact" class="row justify-content-center align-items-center flex-wrap">
-        <div
-          class="
+      </div>
+    </section>
+    <!-- Projekti END -->
+    <!-- Contact START -->
+    <section data-aos="flip-left" id="contact" class="row justify-content-center align-items-center flex-wrap">
+      <div class="
             boxes
             col-10
             contact
             justify-content-center
             align-items-center
             my-5
-          "
-        >
-          <h2 class="text-center">Contact:</h2>
-          <form
-            class="contact-form mt-5"
-            action="https://formspree.io/f/xleavbkg"
-            method="post"
-          >
-            <div class="form-group">
-              <input
-                type="text"
-                name="name"
-                class="form-control"
-                placeholder="Full name"
-              />
-            </div>
-            <div class="form-group mt-3">
-              <input
-                type="text"
-                name="email"
-                class="form-control"
-                aria-describedby="emailHelp"
-                placeholder="Enter email"
-              />
-            </div>
-            <div class="form-group mt-3">
-              <textarea
-                name="message"
-                class="form-control"
-                rows="3"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <button type="submit" name="submit" class="btn btn-primary mt-3 text-center">
-              Send Mail
-            </button>
-          </form>
-        </div>
-      </section>
-      <!-- Contact END -->
-    </div>
+          ">
+        <h2 class="text-center">Contact:</h2>
+        <form class="contact-form mt-5" action="https://formspree.io/f/xleavbkg" method="post">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Full name" required />
+          </div>
+          <div class="form-group my-3">
+            <input type="text" name="email" class="form-control" aria-describedby="emailHelp"
+            required placeholder="Enter email" />
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" rows="3" required placeholder="Message"></textarea>
+          </div>
+          <button type="submit" name="submit" class="btn btn-primary mt-3 text-center">
+            Send Mail
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact END -->
 
-    <script src="./main.js"></script>
-  </body>
+    <footer class="footer">
+      <p>Copyrigth 	&copy; 2021 Jovan Munjas | Powered by Jovan Munjas Dev</p>
+    </footer>
+
+  </div>
+
+ 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration : 1000,
+      offset : 300,
+    });
+  </script>
+
+  <script src="./main.js"></script>
+</body>
+
 </html>

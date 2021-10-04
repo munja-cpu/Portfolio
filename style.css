@@ -93,11 +93,35 @@ span.fancyColors{
     border-radius: 5px;
 }
 
+/**
+ * ----------------------------------------
+ * Footer Start
+ * ----------------------------------------
+ */
+
+.footer{
+  margin: 0 auto;
+  display: block;
+}
+
+.footer p{
+   color: #758398;
+   font-size: 12px;
+   text-align: center;
+}
 
 
+/**
+ * ----------------------------------------
+ * Responsive
+ * ----------------------------------------
+ */
 
-
-
+@media screen and (max-width: 372px) {
+  .fancy{
+    font-size: 15px;
+  }
+}
 
 
 
