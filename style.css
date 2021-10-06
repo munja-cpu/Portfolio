@@ -4,6 +4,10 @@ body{
     font-weight: 300 !important;
 }
 
+img{
+  max-width: 100%;
+}
+
 .hero{
     padding-top: 80px;
 }
@@ -23,6 +27,15 @@ body{
     border-style: solid;
     border-color: #fff;
     border-width: 4px;    
+}
+
+.image-text{
+  background-image: url(./images/pozadinaTeksta.jpg);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  -webkit-background-clip: text;
 }
 
 h1{
@@ -87,9 +100,26 @@ span.fancyColors{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 300px;
+    height: 100%;
     color: #fff;
     border-radius: 5px;
+}
+
+.project-one img{
+  width: 100%;
+  height: 200px;
+}
+
+.git-button{
+  background-color: #fff;
+  color: blue;
+  display: block;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 20px;
+  margin: 20px auto;
+  font-size: 18px;
 }
 
 /**

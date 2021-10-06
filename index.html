@@ -12,6 +12,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-32x32.png">
 
+  <script src="https://kit.fontawesome.com/945084e181.js" crossorigin="anonymous"></script>
   <!-- BOOTSTRAP-->
   <link rel="stylesheet" href="./dist/bootstrap.min.css" />
 
@@ -26,8 +27,8 @@
     <section class="row hero justify-content-center align-items-center flex-wrap">
       <div class="col-10 prof-box scale-in-ver-center">
         <img src="images/me.jpg" class="prof-pic" />
-        <h2 class="pt-4">Hello, I am</h2>
-        <h1 class="py-3">Jovan Munjas</h1>
+        <h2 class="pt-4 image-text">Hello, I am</h2>
+        <h1 class="py-3 image-text">Jovan Munjas</h1>
         <div class="line-break mb-2"></div>
         <p class="fancy">| Front-End Developer |</p>
         <div class="logos align-items-center p-4">
@@ -36,23 +37,27 @@
           <img class="customLogo" src="./images/javascript.png" alt="jsLogo" />
           <img class="customLogo" src="./images/bootstrap.png" alt="bootstrapLogo" />
           <img class="customLogo" src="./images/git.png" alt="gitLogo" />
+          <img class="customLogo" src="./images/sass.png" alt="sassLogo" />
         </div>
       </div>
     </section>
-    <!-- Projekti -->
-    <section class="row justify-content-center align-items-center flex-wrap mt-5">
 
-      <div class="
-            projects
-            col-10
-            justify-content-center
-            align-items-center
-            mt-5
-          ">
-        <h2 class="text-center">Projects:</h2>
-      </div>
-    </section>
-    <!-- Projekti END -->
+    <!-- Projekti -->
+        <div class="row justify-content-around">
+          <section class="col-10 projects align-items-center mt-5">
+                <h2 class="text-center mb-5">Projects:</h2>
+                
+                <div class="row justify-content-center align-items-center ">
+                  <div class="col-12 project-one">
+                    <a href="#" target="_blank">
+                      <img src="./images/GreenEarth.jpg" alt="">
+                    </a>
+                    <a href="#" target="_blank" class="fab fa-github git-button">View on GitHub</a>
+                  </div>
+                </div>  
+          </section>
+        </div><!-- Projekti END -->
+    
     <!-- Contact START -->
     <section id="contact" class="row justify-content-center align-items-center flex-wrap">
       <div class="
@@ -80,8 +85,8 @@
           </button>
         </form>
       </div>
-    </section>
-    <!-- Contact END -->
+    </section><!-- Contact END -->
+    
 
     <footer class="footer">
       <p>Copyrigth 	&copy; 2021 Jovan Munjas | Powered by Jovan Munjas Dev</p>
