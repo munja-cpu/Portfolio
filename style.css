@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, rgba(2, 7, 27, 0),rgba(2, 7, 27, 0)), url(./images/lead4.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(2, 7, 27, 0),rgba(2, 7, 27, 0)), url(../images/lead4.jpg) no-repeat center center;
     font-family: 'Rubik', sans-serif;
     font-weight: 300 !important;
 }
@@ -8,8 +8,53 @@ img{
   max-width: 100%;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/**
+ * ----------------------------------------
+ * Navigation
+ * ----------------------------------------
+ */
+
+ nav{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   min-height: 8vh;
+   margin-right: 30px;
+ }
+
+nav ul a{
+  letter-spacing: 2px;
+  color: #282120;
+  padding-right: 40px;
+  padding: 20px 40px;
+  display: block;
+  font-size: 20px;
+}
+
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px;
+}
+
+
+/**
+ * ----------------------------------------
+ * Lead Section
+ * ----------------------------------------
+ */
 .hero{
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 .prof-box{
@@ -30,7 +75,7 @@ img{
 }
 
 .image-text{
-  background-image: url(./images/1.gif);
+  background-image: url(../images/1.gif);
   background-size: cover;
   background-clip: text;
   color: transparent;
@@ -156,7 +201,21 @@ span.fancyColors{
   }
 }
 
-
+@media screen and (max-width:768px) {
+  .nav-links{
+    position: absolute;
+    left: 0;
+    height: 20%;
+    top: 60px;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  nav{
+    margin-right: 40px;
+  }
+}
 
 
 /**
@@ -188,4 +247,7 @@ span.fancyColors{
       opacity: 1;
     }
   }
+  
+
+
   

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munja-cpu/Portfolio.git"
+  },
+  "author": "Jovan Munjas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munja-cpu/Portfolio/issues"
+  },
+  "homepage": "https://github.com/munja-cpu/Portfolio#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
