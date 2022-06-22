@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, rgba(2, 7, 27, 0),rgba(2, 7, 27, 0)), url(../images/lead4.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(2, 7, 27, 0),rgba(2, 7, 27, 0)), url(/images/lead4.jpg) no-repeat center center;
     font-family: 'Rubik', sans-serif;
     font-weight: 300 !important;
 }
@@ -30,14 +30,28 @@ a{
    margin-right: 30px;
  }
 
+
+
+.nav-links{
+    position: fixed;
+    left: 0;
+    height: 22%;
+    top: 45px;
+    left: 15px;
+    background: linear-gradient(to right, rgba(61, 90, 128, 0.5), rgba(61, 90, 128, 0.5));
+    z-index: 5;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
 nav ul a{
   letter-spacing: 2px;
-  color: #282120;
-  padding-right: 40px;
-  padding: 20px 40px;
+  color: #e0fbfc;
   display: block;
-  font-size: 20px;
-}
+  font-size: 26px;
+  margin: 20px 28px 20px 0px;
+  }
 
 
 .burger div{
@@ -45,7 +59,14 @@ nav ul a{
   height: 3px;
   background-color: #fff;
   margin: 4px;
+  
 }
+
+.burger{
+  position: fixed;
+  z-index: 10;
+}
+
 
 
 /**
@@ -74,15 +95,7 @@ nav ul a{
     border-width: 4px;    
 }
 
-.image-text{
-  background-image: url(../images/1.gif);
-  background-size: cover;
-  background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  -webkit-background-clip: text;
-  font-size: 30px;
-}
+
 
 h1{
     letter-spacing: 4px;
@@ -140,7 +153,7 @@ span.fancyColors{
  */
 
 .projects{
-    background: linear-gradient(to bottom, rgba(2, 7, 27, 1),rgba(2, 7, 27, 0.7)), url(./images/projectsBg.jpg) no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(2, 7, 27, 1),rgba(2, 7, 27, 0.7)), url(/images/projectsBg.jpg) no-repeat center center fixed;
     padding: 40px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -154,6 +167,16 @@ span.fancyColors{
 .project-one img{
   width: 100%;
   height: 200px;
+}
+
+.image-text{
+  background-image: url(/images/1.gif);
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  font-size: 30px;
 }
 
 .git-button{
@@ -201,21 +224,7 @@ span.fancyColors{
   }
 }
 
-@media screen and (max-width:768px) {
-  .nav-links{
-    position: absolute;
-    left: 0;
-    height: 20%;
-    top: 60px;
-    background-color: rgba(0,0,0,0.8);
-    z-index: 5;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  nav{
-    margin-right: 40px;
-  }
-}
+
 
 
 /**

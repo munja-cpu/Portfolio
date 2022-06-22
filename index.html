@@ -1,113 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moj Portfolio</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moj Portfolio</title>
+    <!-- Favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-32x32.png"
+    />
 
-  <!-- Favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-32x32.png">
+    <script
+      src="https://kit.fontawesome.com/945084e181.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="./bootstrapmin/bootstrap.min.css" />
 
-  <script src="https://kit.fontawesome.com/945084e181.js" crossorigin="anonymous"></script>
-  <!-- BOOTSTRAP-->
-  <link rel="stylesheet" href="./bootstrapmin/bootstrap.min.css" />
+    <!-- My CSS-->
+    <link rel="stylesheet" href="fonts.css" type="text/css" />
+    <link rel="stylesheet" href="./dist/css/style.css" type="text/css" />
+  </head>
 
-  <!-- My CSS-->
-  <link rel="stylesheet" href="fonts.css" type="text/css" />
-  <link rel="stylesheet" href="./dist/style.css" type="text/css" />
-</head>
-
-<body>
-  <div class="container">
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#" class="fas fa-home"> Projects</a></li>
-        <li><a href="#" class="fas fa-user"> Contact</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-  </div>
-  <div class="container">
-    <!-- Lead Start -->
-    <section class="row hero justify-content-center align-items-center flex-wrap">
-      <div class="col-10 prof-box scale-in-ver-center">
-        <img src="images/me.jpg" class="prof-pic" />
-        <h2 class="pt-4">Hello, I am</h2>
-        <h1 class="py-3">Jovan Munjas</h1>
-        <div class="line-break mb-2"></div>
-        <p class="fancy">| Front-End Developer |</p>
-        <div class="logos align-items-center p-4">
-          <img class="customLogo" src="./images/html.png" alt="htmlLogo" />
-          <img class="customLogo" src="./images/css.png" alt="cssLogo" />
-          <img class="customLogo" src="./images/javascript.png" alt="jsLogo" />
-          <img class="customLogo" src="./images/bootstrap.png" alt="bootstrapLogo" />
-          <img class="customLogo" src="./images/git.png" alt="gitLogo" />
-          <img class="customLogo" src="./images/sass.png" alt="sassLogo" />
+  <body>
+    <div class="container">
+      <!-- Navigacija i burger btn-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" class="fas fa-home"></a></li>
+          <li><a href="#" class="fas fa-project-diagram"></a></li>
+          <li><a href="#" class="fas fa-address-card"></a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
+      </nav>
+    </div>
+    <div class="container">
+      <!-- Lead Start -->
+      <section
+        class="row hero justify-content-center align-items-center flex-wrap"
+      >
+        <div class="col-10 prof-box scale-in-ver-center">
+          <img src="images/me.jpg" class="prof-pic" />
+          <h2 class="pt-4">Hello, I am</h2>
+          <h1 class="py-3">Jovan Munjas</h1>
+          <div class="line-break mb-2"></div>
+          <p class="fancy">| Front-End Developer |</p>
+          <div class="logos align-items-center p-4">
+            <img class="customLogo" src="./images/html.png" alt="htmlLogo" />
+            <img class="customLogo" src="./images/css.png" alt="cssLogo" />
+            <img
+              class="customLogo"
+              src="./images/javascript.png"
+              alt="jsLogo"
+            />
+            <img
+              class="customLogo"
+              src="./images/bootstrap.png"
+              alt="bootstrapLogo"
+            />
+            <img class="customLogo" src="./images/git.png" alt="gitLogo" />
+            <img class="customLogo" src="./images/sass.png" alt="sassLogo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Projekti -->
+      <div class="row justify-content-around">
+        <section class="col-10 projects align-items-center mt-5">
+          <h2 class="text-center mb-5 image-text">Projects:</h2>
+
+          <div class="row justify-content-start align-items-center">
+            <div class="col-12 col-md-4 project-one">
+              <a href="#" target="_blank">
+                <img src="./images/GreenEarth.jpg" alt="" />
+              </a>
+              <a
+                href="https://github.com/munja-cpu/GreenEarth"
+                target="_blank"
+                class="fab fa-github git-button"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+      <!-- Projekti END -->
 
-    <!-- Projekti -->
-        <div class="row justify-content-around">
-          <section class="col-10 projects align-items-center mt-5">
-                <h2 class="text-center mb-5 image-text">Projects:</h2>
-                
-                <div class="row justify-content-start align-items-center ">
-                  <div class="col-12 col-md-4 project-one">
-                    <a href="#" target="_blank">
-                      <img src="./images/GreenEarth.jpg" alt="">
-                    </a>
-                    <a href="https://github.com/munja-cpu/GreenEarth" target="_blank" class="fab fa-github git-button">View on GitHub</a>
-                  </div>
-                </div>  
-          </section>
-        </div><!-- Projekti END -->
-        
-    <!-- Contact START -->
-    <section id="contact" class="row justify-content-center align-items-center flex-wrap">
-      <div class="
-            boxes
-            col-10
-            contact
-            justify-content-center
-            align-items-center
-            my-5
-          ">
-        <h2 class="text-center">Contact:</h2>
-        <form class="contact-form mt-5" action="https://formspree.io/f/xleavbkg" method="post">
-          <div class="form-group">
-            <input type="text" name="name" class="form-control" placeholder="Full name" required />
-          </div>
-          <div class="form-group my-3">
-            <input type="text" name="email" class="form-control" aria-describedby="emailHelp"
-            required placeholder="Enter email" />
-          </div>
-          <div class="form-group">
-            <textarea name="message" class="form-control" rows="3" required placeholder="Message"></textarea>
-          </div>
-          <button type="submit" name="submit" class="btn btn-primary mt-3 text-center">
-            Send Mail
-          </button>
-        </form>
-      </div>
-    </section><!-- Contact END -->
-    
+      <!-- Contact START -->
+      <section
+        id="contact"
+        class="row justify-content-center align-items-center flex-wrap"
+      >
+        <div
+          class="boxes col-10 contact justify-content-center align-items-center my-5"
+        >
+          <h2 class="text-center">Contact:</h2>
+          <form
+            class="contact-form mt-5"
+            action="https://formspree.io/f/xleavbkg"
+            method="post"
+          >
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Full name"
+                required
+              />
+            </div>
+            <div class="form-group my-3">
+              <input
+                type="text"
+                name="email"
+                class="form-control"
+                aria-describedby="emailHelp"
+                required
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                class="form-control"
+                rows="3"
+                required
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              name="submit"
+              class="btn btn-primary mt-3 text-center"
+            >
+              Send Mail
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Contact END -->
 
-    <footer class="footer">
-      <p>Copyrigth 	&copy; 2021 Jovan Munjas | Powered by Jovan Munjas Dev</p>
-    </footer>
+      <footer class="footer">
+        <p>Copyrigth &copy; 2021 Jovan Munjas | Powered by Jovan Munjas Dev</p>
+      </footer>
+    </div>
 
-  </div>
-
-  <script src="./main.js"></script>
-</body>
-
+    <script src="/dist/js/main.js"></script>
+  </body>
 </html>

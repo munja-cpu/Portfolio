@@ -10,14 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/munja-cpu/Portfolio.git"
   },
-  "author": "Jovan Munjas",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/munja-cpu/Portfolio/issues"
   },
   "homepage": "https://github.com/munja-cpu/Portfolio#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
     "gulp-uglifycss": "^1.1.0"
