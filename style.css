@@ -170,7 +170,7 @@ span.fancyColors{
 }
 
 .image-text{
-  background-image: url(/images/1.gif);
+  background-image: url(../../images/1.gif);
   background-size: cover;
   background-clip: text;
   color: transparent;
