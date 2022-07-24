@@ -153,7 +153,7 @@ span.fancyColors{
  */
 
 .projects{
-    background: linear-gradient(to bottom, rgba(2, 7, 27, 1),rgba(2, 7, 27, 0.7)), url(./images/projectsBg.jpg) no-repeat center center fixed;
+    background: linear-gradient(to bottom, rgba(2, 7, 27, 1),rgba(2, 7, 27, 0.7)), url(../../images/projectsBg.jpg) no-repeat center center fixed;
     padding: 40px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
