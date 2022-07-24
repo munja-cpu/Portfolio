@@ -181,13 +181,13 @@ span.fancyColors{
 
 .git-button{
   background-color: #fff;
-  color: blue;
+  color: #000;
   display: block;
   font-size: 1.8rem;
   text-align: center;
   padding: 10px 0px;
   border-radius: 20px;
-  margin: 20px auto;
+  margin: 20px 32px;
   font-size: 18px;
 }
 
