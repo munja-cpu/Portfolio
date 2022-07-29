@@ -16,58 +16,6 @@ a{
   text-decoration: none;
 }
 
-/**
- * ----------------------------------------
- * Navigation
- * ----------------------------------------
- */
-
- nav{
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   min-height: 8vh;
-   margin-right: 30px;
- }
-
-
-
-.nav-links{
-    position: fixed;
-    left: 0;
-    height: 22%;
-    top: 45px;
-    left: 15px;
-    background: linear-gradient(to right, rgba(61, 90, 128, 0.5), rgba(61, 90, 128, 0.5));
-    z-index: 5;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-
-nav ul a{
-  letter-spacing: 2px;
-  color: #e0fbfc;
-  display: block;
-  font-size: 26px;
-  margin: 20px 28px 20px 0px;
-  }
-
-
-.burger div{
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 4px;
-  
-}
-
-.burger{
-  position: fixed;
-  z-index: 10;
-}
-
-
 
 /**
  * ----------------------------------------
@@ -76,6 +24,8 @@ nav ul a{
  */
 .hero{
     padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .prof-box{
